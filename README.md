@@ -8,7 +8,7 @@ Built for the [Superteam KZ × S1lkPay Frontier Side Track](https://superteam.fu
 
 ## The problem
 
-Running payroll across Kazakhstan, UAE, Turkey, and the broader CIS region is broken:
+Running payroll across Kazakhstan and probably the broader CIS region is broken:
 
 - SWIFT wires take 3–5 days and cost 3–7% in fees
 - Local currencies (KZT, UZS, AMD) lose value while payroll funds sit idle
