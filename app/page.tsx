@@ -18,14 +18,14 @@ const SUGGESTIONS = [
   'Check treasury balance',
   'Show yield info',
   'List my team',
-  'Pay Alice $500 and Bob $300',
+  'Pay Aldiyar $500 and Baha $300',
 ]
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'agent',
-      text: "Hi! I'm the **SilkFlow** payroll agent.\n\n• Check **treasury balance** and T-bill yield\n• **Pay workers** — \"pay Alice $500 and Bob $300\"\n• List your **team**\n\nWhat would you like to do?",
+      text: "Hi! I'm the **SilkFlow** payroll agent.\n\n• Check **treasury balance** and T-bill yield\n• **Pay workers** — \"pay Aldiyar $500 and Baha $300\"\n• List your **team**\n\nWhat would you like to do?",
     },
   ])
   const [input, setInput] = useState('')
@@ -122,7 +122,7 @@ export default function Home() {
           <input
             value={input}
             onChange={e => setInput(e.target.value)}
-            placeholder='e.g. "Pay Alice $500 and Bob $300"'
+            placeholder='e.g. "Pay Aldiyar $500 and Baha $300"'
             className="flex-1 bg-white/10 rounded-xl px-4 py-3 text-sm outline-none focus:ring-1 focus:ring-emerald-500 placeholder-gray-500"
           />
           <button

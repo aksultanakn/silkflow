@@ -24,7 +24,7 @@ Employer deposits USDC
         ↓
 Funds earn ~4.85% APY (sUSD T-bill tokens, Solayer) while sitting in treasury
         ↓
-Employer types: "pay Alice $500 and Bob $300"
+Employer types: "pay Aldiyar $500 and Baha $300"
         ↓
 Agent executes USDC transfers on Solana (400ms, ~$0.00025/tx)
         ↓
@@ -171,7 +171,7 @@ Open `http://localhost:3000`
 **As an employer (`/`):**
 - "Check treasury balance"
 - "Show yield info"
-- "Pay Alice $500 and Bob $300"
+- "Pay Aldiyar $500 and Baha $300"
 
 **As a worker (`/worker`):**
 - Select your name

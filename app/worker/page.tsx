@@ -3,9 +3,9 @@
 import { useState } from 'react'
 
 const WORKERS = [
-  { id: 'alice', name: 'Alice', address: process.env.NEXT_PUBLIC_WORKER1 ?? '' },
-  { id: 'bob',   name: 'Bob',   address: process.env.NEXT_PUBLIC_WORKER2 ?? '' },
-  { id: 'dana',  name: 'Dana',  address: process.env.NEXT_PUBLIC_WORKER3 ?? '' },
+  { id: 'aldiyar', name: 'Aldiyar', address: process.env.NEXT_PUBLIC_WORKER1 ?? '' },
+  { id: 'baha',    name: 'Baha',    address: process.env.NEXT_PUBLIC_WORKER2 ?? '' },
+  { id: 'dana',    name: 'Dana',    address: process.env.NEXT_PUBLIC_WORKER3 ?? '' },
 ]
 
 type Card = {

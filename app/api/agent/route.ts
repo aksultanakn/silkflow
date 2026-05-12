@@ -5,9 +5,9 @@ const MOCK = process.env.MOCK_MODE === 'true'
 const MOCK_BALANCE = 12_500 // $12,500 USDC in treasury
 
 const WORKERS: Record<string, { address: string; name: string }> = {
-  alice: { address: process.env.NEXT_PUBLIC_WORKER1!, name: 'Alice' },
-  bob:   { address: process.env.NEXT_PUBLIC_WORKER2!, name: 'Bob' },
-  dana:  { address: process.env.NEXT_PUBLIC_WORKER3!, name: 'Dana' },
+  aldiyar: { address: process.env.NEXT_PUBLIC_WORKER1!, name: 'Aldiyar' },
+  baha:    { address: process.env.NEXT_PUBLIC_WORKER2!, name: 'Baha' },
+  dana:    { address: process.env.NEXT_PUBLIC_WORKER3!, name: 'Dana' },
 }
 
 const YIELD_APY = 4.85
@@ -84,6 +84,6 @@ export async function POST(req: NextRequest) {
 
   // DEFAULT
   return NextResponse.json({
-    text: `Hi! I'm the **SilkFlow** payroll agent. I can:\n\n• Check **treasury balance** and T-bill yield\n• **Pay workers** — "pay Alice $500 and Bob $300"\n• List your **team**\n\nWhat would you like to do?`,
+    text: `Hi! I'm the **SilkFlow** payroll agent. I can:\n\n• Check **treasury balance** and T-bill yield\n• **Pay workers** — "pay Aldiyar $500 and Baha $300"\n• List your **team**\n\nWhat would you like to do?`,
   })
 }
